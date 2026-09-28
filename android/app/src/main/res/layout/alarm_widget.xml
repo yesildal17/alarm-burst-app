@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Ana ekran widget'ı. Saat için TextClock kullanılıyor: sistem kendisi
+  güncelliyor, uygulamanın çalışıyor olması gerekmiyor. Uygulama simgesi
+  canlı saat gösteremediği için canlı saat isteğinin karşılığı burası.
+-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="12dp"
+    android:background="@drawable/widget_background">
+
+    <TextClock
+        android:id="@+id/widget_clock"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:format12Hour="hh:mm"
+        android:format24Hour="HH:mm"
+        android:textSize="40sp"
+        android:textColor="#FFFFFF"
+        android:fontFamily="sans-serif-light"
+        android:includeFontPadding="false"/>
+
+    <TextClock
+        android:id="@+id/widget_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:format12Hour="EEEE, d MMMM"
+        android:format24Hour="EEEE, d MMMM"
+        android:textSize="12sp"
+        android:textColor="#CCFFFFFF"
+        android:layout_marginTop="2dp"/>
+
+    <TextView
+        android:id="@+id/widget_next_alarm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="12sp"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="8dp"
+        android:maxLines="1"
+        android:ellipsize="end"
+        android:text="@string/widget_no_alarm"/>
+</LinearLayout>

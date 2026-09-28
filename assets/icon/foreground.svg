@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <!-- Uyarlanabilir simge ön planı: içerik güvenli alanda kalsın diye
+       kadran %66 ölçekte ortalanmış, zemin saydam. -->
+  <g transform="translate(256,256) scale(0.62) translate(-256,-262)">
+    <circle cx="256" cy="262" r="140" fill="none" stroke="#FFFFFF" stroke-width="18"/>
+    <g fill="#FFFFFF" opacity="0.9">
+      <circle cx="256" cy="150" r="9"/>
+      <circle cx="335" cy="183" r="9"/>
+      <circle cx="368" cy="262" r="9"/>
+      <circle cx="177" cy="183" r="9"/>
+      <circle cx="144" cy="262" r="9"/>
+    </g>
+    <g stroke="#FFFFFF" stroke-linecap="round" fill="none">
+      <line x1="256" y1="262" x2="256" y2="186" stroke-width="20"/>
+      <line x1="256" y1="262" x2="313" y2="290" stroke-width="16"/>
+    </g>
+    <circle cx="256" cy="262" r="14" fill="#FFFFFF"/>
+    <g fill="#FFFFFF">
+      <path d="M104 118 a70 70 0 0 1 84 -28 l-22 38 a28 28 0 0 0 -30 10 z"/>
+      <path d="M408 118 a70 70 0 0 0 -84 -28 l22 38 a28 28 0 0 1 30 10 z"/>
+    </g>
+  </g>
+</svg>
